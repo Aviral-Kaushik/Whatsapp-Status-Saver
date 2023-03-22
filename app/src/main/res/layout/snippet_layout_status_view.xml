@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/view_product_card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@drawable/border_layout_view_status"
+    android:elevation="15dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/border_layout_view_status">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/status_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_dummy"
+            android:contentDescription="@string/status_image"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            app:civ_border_width="3dp"
+            app:civ_border_color="@color/status_green"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/view_status"
+            android:layout_width="158dp"
+            android:layout_height="37dp"
+            android:text="@string/view_status"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:drawableStart="@drawable/ic_view"
+            android:drawablePadding="10dp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/layout_border_button"
+            android:elevation="10dp"
+            android:textAllCaps="false"
+            app:layout_constraintStart_toEndOf="@id/status_image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/download_status"
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:text="@string/download_status"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:background="#00c1a2"
+            android:drawableStart="@drawable/ic_download"
+            android:drawablePadding="10dp"
+            android:padding="10dp"
+            android:elevation="10dp"
+            android:textAllCaps="false"
+            app:layout_constraintStart_toEndOf="@id/status_image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/view_status"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
