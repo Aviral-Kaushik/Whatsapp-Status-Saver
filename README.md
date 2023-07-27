@@ -11,3 +11,9 @@ This application can save the WhatsApp statuses of your contact into your phone 
   <img src="https://github.com/Aviral-Kaushik/Whatsapp-Status-Saver/blob/main/screenshots/WhatsApp%20Image%202023-03-22%20at%2017.06.41.jpeg" width="300px" style="padding: 10px" height="auto">
   <img src="https://github.com/Aviral-Kaushik/Whatsapp-Status-Saver/blob/main/screenshots/WhatsApp%20Image%202023-03-22%20at%2017.09.56.jpeg" width="300px" style="padding: 10px" height="auto">
 </p>
+
+## Developer Links
+
+**Aviral Kaushik :-- [Official Website](http://aviralkaushik.epizy.com/)**
+**Aviral Kaushik :-- [Instagram](https://www.instagram.com/aviral_3101/)**
+**Aviral Kaushik :-- [Facebook](https://www.facebook.com/aviral.kaushik.16)**
